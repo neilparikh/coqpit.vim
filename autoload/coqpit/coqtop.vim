@@ -12,12 +12,18 @@ let s:to_check_default = [
       \ 'coqidetop',
       \ '-main-channel',
       \ 'stdfds',
+      \ '-Q',
+      \ '.',
+      \ 'LF',
     \ ],
     \ [
       \ 'coqtop',
       \ '-ideslave',
       \ '-main-channel',
       \ 'stdfds',
+      \ '-Q',
+      \ '.',
+      \ 'LF',
     \ ]
   \ ]
 
